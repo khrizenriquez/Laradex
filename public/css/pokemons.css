@@ -1,0 +1,121 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+textarea {
+	resize: none;
+}
+
+.upload-image {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.center-div {
+	margin: 0 auto;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.relative {
+	position: relative;
+}
+
+.font-1-5 {
+	font-size: 1.5rem;
+}
+
+.pokemons-list-title {
+	font-size: 1.8rem;
+}
+.pokemons-list-title span {
+	font-size: 1.8rem;
+}
+
+.pokemons-list-container {
+	outline: none;
+	transition: all 0.25s linear;
+}
+.pokemons-list-container:hover {
+	cursor: pointer;
+	outline: 1px solid black;
+	transition: all 0.25s linear;
+}
+
+.pokemons-list-container figure {
+	height: 300px;
+	overflow: hidden;
+	width: 300px;
+}
+.pokemons-list-container figure img {
+	background: black;
+	height: 100%;
+	width: 100%;
+}
+
+.pokemons-edit-container figure, .pokemons-create-container figure {
+	height: 300px;
+	overflow: hidden;
+	width: 300px;
+}
+.pokemons-edit-container figure img, 
+.pokemons-create-container figure img {
+	/*background: black;*/
+	height: 100%;
+	width: 100%;
+}
+
+.pokedex figure {
+	height: 300px;
+	overflow: hidden;
+	width: 300px;
+}
+.pokedex figure img {
+	background: black;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 100%;
+}
+
+/*	Background*/
+.pokedex-bg {
+	background: rgb(236, 104, 75);
+}
+.pokedex-style {
+	border-radius: 0.5rem;
+	color: white;
+	padding: 1rem;
+	overflow: hidden;
+}
+
+
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.pokemons-list-container figure {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.pokemons-list-container figure {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.pokemons-list-container figure {
+		height: 200px;
+		width: 200px;
+	}
+}
