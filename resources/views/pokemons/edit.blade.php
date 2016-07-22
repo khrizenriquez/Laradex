@@ -136,9 +136,9 @@
 		readURL(this, '#imagePreview')
 	})
 
-	let s = document.querySelector('#playSoudPokemon')
+	var s = document.querySelector('#playSoudPokemon')
 
-	// let b = document.querySelector('#')
+	// var b = document.querySelector('#')
 	// b.addEventListener('click', function (evt) {
 		
 	// })
@@ -147,9 +147,9 @@
 	//   	event.preventDefault();
 	// });
 
-	let playSound = document.querySelector('#playSound');
-	let input = document.querySelector('#scream')
-	let data = '{{ asset($pokemon->sound) }}' || null
+	var playSound = document.querySelector('#playSound');
+	var input = document.querySelector('#scream')
+	var data = '{{ asset($pokemon->sound) }}' || null
 	playSound.addEventListener('click', function (evt) {
 
 		input.addEventListener('change', function (evt) {
@@ -190,8 +190,8 @@
 		        var reader = new FileReader();
 
 		        reader.onload = function (e) {
-		        	let sound = e.target.result
-		        	let audio = new Audio(sound)
+		        	var sound = e.target.result
+		        	var audio = new Audio(sound)
 					audio.play()
 		        }
 

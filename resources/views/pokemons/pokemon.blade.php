@@ -135,11 +135,11 @@
 <script>
 	'use strict'
 
-	let pokemonData = {}
-	let arr = []
+	var pokemonData = {}
+	var arr = []
 
-	let animationsBar = function () {
-		let maxAttributes = 200
+	var animationsBar = function () {
+		var maxAttributes = 200
 		$(".progress-bar").each(function (index, element) {
 			$(element).animate({
 				width: `${(parseInt(arr[index]) * 100) / maxAttributes}%`
@@ -152,9 +152,9 @@
 		})
 	}
 
-	let getInfo = $.getJSON('/pokemons/{{ $id }}', {}, function () {})
+	var getInfo = $.getJSON('/pokemons/{{ $id }}', {}, function () {})
 	getInfo.done(function (response) {
-		let r 		= response.pokemon
+		var r 		= response.pokemon
 		pokemonData = r
 
 		arr.push(r.hp)
@@ -165,13 +165,13 @@
 		arr.push(r.speed)
 		animationsBar()
 
-		let image 	= document.querySelector('#previewPokemon')
+		var image 	= document.querySelector('#previewPokemon')
 		image.src 	= r.image
 		image.alt 	= r.name
 		image.title = r.name
 
 		//	Sonido
-		let audio = new Audio(r.sound)
+		var audio = new Audio(r.sound)
 		s.addEventListener('click', function (evt) {
 			audio.play()
 		})
@@ -186,11 +186,11 @@
 	})
 
 	function deletePokemon (idPokemon) {
-		let id = idPokemon || null
+		var id = idPokemon || null
 
 		if (id === null) return
 
-		let deletePokemon = $.ajax({
+		var deletePokemon = $.ajax({
 			method: "delete",
 			url: '/pokemons/{{ $id }}',
 			data: {
@@ -207,7 +207,7 @@
 		})
 	}
 
-	let s = document.querySelector('#playSoudPokemon')
+	var s = document.querySelector('#playSoudPokemon')
 
 	
 </script>

@@ -129,14 +129,14 @@
 		readURL(this, '#imagePreview')
 	})
 
-	let playSound = document.querySelector('#playSound');
+	var playSound = document.querySelector('#playSound');
 	playSound.addEventListener('click', function (evt) {
-		let input = document.querySelector('#scream')
+		var input = document.querySelector('#scream')
 		if (input.files && input.files[0]) {
 	        var reader = new FileReader();
 
 	        reader.onload = function (e) {
-	        	let audio = new Audio(e.target.result)
+	        	var audio = new Audio(e.target.result)
 				audio.play()
 	        }
 
