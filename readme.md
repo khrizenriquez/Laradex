@@ -1,27 +1,24 @@
-# Laravel PHP Framework
+#Pokédex básica con Laravel
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+CRUD básico hecho con laravel para listar a los pokémon, ver su detalle y reproducir el sonido del grito que emiten.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+![Pokédex - Chris Enríquez](https://raw.githubusercontent.com/khrizenriquez/laradex/master/public/img/capturas/1.png)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+![Pokédex - Chris Enríquez](https://raw.githubusercontent.com/khrizenriquez/laradex/master/public/img/capturas/2.png)
 
-## Official Documentation
+![Pokédex - Chris Enríquez](https://raw.githubusercontent.com/khrizenriquez/laradex/master/public/img/capturas/3.png)
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
+**Legal**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Pokémon images, names and information (c) 1995-2014 Nintendo/Game freak. Images and content were taken from the following resources:
 
-## Security Vulnerabilities
+* http://veekun.com/dex/downloads
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Licencia: [MIT](https://opensource.org/licenses/MIT)
+
+Autor: Chris Enríquez
+[Twitter](https://twitter.com/khrizEnriquez) ||
+[Facebook](https://facebook.com/khrizenriquez)
