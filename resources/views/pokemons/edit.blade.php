@@ -4,8 +4,6 @@
 
 @section('content')
 
-@include('partials.navbar')
-
 <form action="/pokemons-update" method="post" enctype="multipart/form-data">
 	{{ method_field('PUT') }}
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">

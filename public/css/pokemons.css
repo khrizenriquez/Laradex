@@ -27,6 +27,15 @@ textarea {
 	font-size: 1.5rem;
 }
 
+.footer-text {
+	font-size: 1.5em;
+	margin-top: 5em;
+}
+.footer-text label {
+	cursor: pointer;
+	font-weight: 300;
+}
+
 .pokemons-list-title {
 	font-size: 1.8rem;
 }
