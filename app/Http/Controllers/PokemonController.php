@@ -168,7 +168,9 @@ class PokemonController extends Controller
 
    	//	Index (all)
 	public function show () {
-		return view('pokemons.index');
+		$p = Pokemon::all();
+
+		return view('pokemons.index', ['pokemons' => $p]);
 	}
 
 	public function getAll (Request $request) {

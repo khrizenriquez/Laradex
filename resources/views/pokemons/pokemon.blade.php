@@ -141,7 +141,7 @@
 	let arr = []
 
 	let animationsBar = function () {
-		let maxAttributes = 300
+		let maxAttributes = 200
 		$(".progress-bar").each(function (index, element) {
 			$(element).animate({
 				width: `${(parseInt(arr[index]) * 100) / maxAttributes}%`

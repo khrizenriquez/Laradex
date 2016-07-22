@@ -18,7 +18,7 @@ class Pokemon extends Model
 	   		$p->national_pokedex 	= $nationalPokedex;
 	   		$p->hp 					= $hp;
 	   		$p->name 				= $pokemonName;
-	   		$p->slug_name 			= $pokemonName;
+	   		//$p->slug_name 			= '';
 	   		$p->attack 				= $attack;
 	   		$p->defense 			= $defense;
 	   		$p->special_attack 		= $specialAttack;
@@ -43,7 +43,7 @@ class Pokemon extends Model
 	   		$p->national_pokedex 	= $nationalPokedex;
 	   		$p->hp 					= $hp;
 	   		$p->name 				= $pokemonName;
-	   		$p->slug_name 			= $pokemonName;
+	   		//$p->slug_name 			= $pokemonName;
 	   		$p->attack 				= $attack;
 	   		$p->defense 			= $defense;
 	   		$p->special_attack 		= $specialAttack;
