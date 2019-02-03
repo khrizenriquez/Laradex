@@ -1,0 +1,367 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+a.yellow-color, 
+a.yellow-color:active,
+a.yellow-color:hover {
+    color: #a5841e;
+}
+header .dropdown.menu li a, 
+header .dropdown.menu li a:hover, 
+header .dropdown.menu li a:active {
+    color: #292929;
+}
+header .dropdown.menu li.menu-item a  {
+    margin-top: 1em;
+}
+header .top-bar {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+header .top-bar ul li a {
+    color: #292929;
+}
+header ul.dropdown.menu li.menu-item a::after {
+    
+}
+input[type='checkbox'] {
+	margin-top: -30px;
+}
+
+input[type='checkbox'] {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+	width: 13px;
+	height: 13px;
+	margin: 0;
+	margin-right: 1px;
+	display: block;
+	float: left;
+	position: relative;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+input[type='checkbox']:after {
+	content: "";
+	vertical-align: middle;
+	text-align: center;
+	line-height: 13px;
+	position: absolute;
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	left: 0;
+	top: 0;
+	font-size: 10px;
+    background: #fff;
+    border: 1px solid #a5841e;
+}
+
+input[type='checkbox']:hover:after, input[type='checkbox']:checked:hover:after {
+    border: 1px solid #a5841e;
+}
+
+input[type='checkbox']:checked:after {
+	background: #a5841e;
+	color: #a5841e;
+}
+
+footer {
+    background: #292929;
+    padding-top: 3em;
+}
+footer .copy {
+    margin: 0.3em auto 1em auto;
+}
+form.sign-up input, 
+form.sign-up input:active, 
+form.sign-up input:focus, 
+form.sign-up select, 
+form.sign-up select:active, 
+form.sign-up select:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #a5841e;
+}
+form .footer-terms {
+    font-size: 13px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+form.sign-up .select-container:after {
+    content: '\25BC';
+    width: 50px;
+    font-size: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #a5841e;
+    background-color: #fff;
+    margin-left: auto;
+    pointer-events: none;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.absolute {
+    position: absolute;
+}
+.already-have-account {
+
+}
+.already-have-account a {
+    color: #292929;
+}
+.button-yellow-color {
+    background-color: #a5841e !important;
+}
+.button-yellow-color:hover, 
+.button-yellow-color:active {
+    background-color: #a5841e !important;
+}
+.color-white {
+    color: white;
+}
+.display-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+.free-vendor-message {
+    margin-top: 10em;
+    /* background-color: red; */
+    color: white;
+}
+.form-services {
+    font-size: 16px;
+}
+.footer-subscribe-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: #a5841e;
+}
+.footer-bottom-menu {
+    font-size: 14px;
+    margin: 1em auto;
+}
+.footer-bottom-menu span {
+    color: white;
+}
+.footer-bottom-menu span a {
+    color: white;
+}
+.footer-bottom-menu span::after {
+    content: "|";
+    padding: 0.3em;
+}
+.footer-bottom-menu span:last-child::after {
+    content: "";
+}
+.footer-subscribe-input {
+    padding: 0.9em;
+    font-size: 0.8em;
+}
+.footer-icons {
+    margin-top: 3em;
+}
+.footer-icons div {
+    display: inline;
+}
+.footer-icons img {
+    width: 32px;
+    height: 32px;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+.header-are-you-vendor {
+    color: #a5841e;
+}
+.left-social-icons {
+    position: fixed;
+    right: 0;
+    background: #292929;
+    border-radius: 0.5em 0em 0em 0.5em;
+    padding: 1em;
+    top: 250px;
+    z-index: 9;
+}
+.left-social-icons div {
+    margin-top: 0.5em;
+}
+.left-social-icons div img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: normal;
+}
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+}
+.margin-top-1 {
+    margin-top: 1em;
+}
+.menu-text {
+    color: #a5841e !important;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: normal !important;
+}
+.menu-text a,
+.menu-text a:hover, 
+.menu-text a:active {
+    color: #a5841e !important;
+}
+.relative {
+    position: relative;
+}
+.section-container {
+    margin-bottom: 5em !important;
+}
+.sign-up-left-image {
+    left: 0;
+    position: absolute;
+    top: 150px;
+    z-index: -1;
+    width: 600px;
+    height: 800px;
+    background-color: red;
+    overflow: hidden;
+}
+.sign-up-left-image img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.sign-up-left-image-cover {
+    width: 100%;
+    height: 800px;
+    background: #000;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+}
+.sign-up-left-text {
+    width: 80%;
+}
+.sign-up {
+    margin-top: 3em;
+}
+.sign-up legend {
+    color: #a5841e;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 1em auto;
+}
+.size-14 {
+    font-size: 14px;
+}
+.size-15 {
+    font-size: 15px;
+}
+.size-16 {
+    font-size: 16px;
+}
+.top-bar, .top-bar ul {
+    background-color: white !important;
+}
+.top-bar-right div a {
+    color: #292929;
+}
+
+
+
+/* TOOLTIP */
+.tooltip {
+    background-color: #a5841e !important;
+    font-size: 65% !important;
+}
+.tooltip.right::before  {
+    border-color: transparent #a5841e transparent transparent !important;
+}
+.tooltip.top::before  {
+    border-color: #a5841e transparent transparent !important;
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    header .dropdown.menu li.menu-item a {
+        font-size: 0.8em;
+        margin-top: 1.5em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    form .footer-terms {
+        font-size: 12px;
+    }
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media (min-width: 640px) and (max-width: 1024px) {
+    header ul.dropdown.menu li.menu-text {
+        width: 100%;
+    }
+    header ul.dropdown.menu li.menu-text a {
+        font-size: 50px;
+    }
+    header .top-bar-right {
+        position: absolute;
+        right: 5%;
+        top: 6%;
+    }
+    header .dropdown.menu li.menu-item a {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 640px) {
+    .free-vendor-message {
+        display: none;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

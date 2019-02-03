@@ -10,19 +10,21 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', 'PokemonController@show');
-Route::get('/pokemon/{identifier}', 'PokemonController@pokemonInfo');
+Route::get('/', function () {
+    return view('/sign-up-vendor');
+    //return view('welcome');
+});
 
-Route::put('/pokemons-update', 'PokemonController@updateInfo');
+Route::post('sign-up', function () {
+    return view('sign-up');
+});
 
-Route::get('/pokemons/crear', ['as' => 'crear', function () {
-    return view('pokemons.create');
-}]);
-Route::get('/pokemons/editar/{identifier}', 'PokemonController@showEditInfo')->name('editar');
+Route::get('sign-up-vendor', function () {
+    return view('sign-up-vendor');
+});
 
-//	RestAPI
-Route::get('/pokemons', 'PokemonController@getAll');
-Route::post('/pokemons', 'PokemonController@store');
-Route::get('/pokemons/{identifier}', 'PokemonController@getPokemonInfo');
-Route::delete('/pokemons/{identifier}', 'PokemonController@deletePokemonInfo');
-Route::put('/pokemons/{identifier}', 'PokemonController@deletePokemonInfo');
+Route::post('sign-up-vendor', 'SignUp@saveVendor');
+
+Route::get('sign-up-user', function () {
+    return view('sign-up-user');
+});
